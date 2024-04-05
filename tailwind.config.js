@@ -15,7 +15,10 @@ export default {
         'grey-two':'#2F2F2F',
          },
       fontFamily:{
-          textone :['"Urbanist", sans-serif;']
+          urbanist :['"Urbanist", sans-serif;'],
+          syne:['"Syne", sans-serif;'],
+          assistant:['"Assistant", sans-serif;'],
+
          }
     },
   },
