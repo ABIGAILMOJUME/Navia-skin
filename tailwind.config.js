@@ -19,7 +19,10 @@ export default {
           syne:['"Syne", sans-serif;'],
           assistant:['"Assistant", sans-serif;'],
 
-         }
+         },
+      height:{
+        'hero':'28rem'
+      }   
     },
   },
   plugins: [],
