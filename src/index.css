@@ -4,3 +4,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .text-one{
+        @apply text-pink-three font-medium font-syne leading-7 tracking-widest
+    }
+}
+
+@layer components {
+    .btn-one{
+        @apply bg-pink-two rounded-full font-syne transition ease-in-out delay-500 text-grey-two hover:text-pink-one hover:scale-x-110 
+    }
+}

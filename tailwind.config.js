@@ -21,8 +21,14 @@ export default {
 
          },
       height:{
-        'hero':'28rem'
-      }   
+        'hero':'28rem',
+      },   
+      fontSize:{
+        'big':'4.375rem'
+      },
+      lineHeight:{
+        'small': '1.1'
+      },
     },
   },
   plugins: [],
