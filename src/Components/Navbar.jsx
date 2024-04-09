@@ -33,9 +33,9 @@ const Navbar = () => {
 
                     {/*menu for mobile */}
                 <div className="mr-3 block md:hidden" onClick={toggleMenu}>
-                    {!isMenuOPen ?<AiOutlineClose size={30}/>: <AiOutlineMenu size={30}/> }
+                    {isMenuOPen ?<AiOutlineClose size={30}/>: <AiOutlineMenu size={30}/> }
                 </div>
-                <div className={!isMenuOPen ? "fixed left-0 top-0 w-[60%] h-full border-r border-pink-50 bg-grey-one ease-out duration-500" : "fixed left-[-100%] "}>
+                <div className={isMenuOPen ? "fixed left-0 top-0 w-[60%] h-full border-r border-pink-50 bg-grey-one ease-out duration-500" : "fixed left-[-100%] "}>
                 <a href=""><img src={logo} alt="" className=" w-56 pl-1 mt-2 hover:shadow-sm"/></a>
                     <ul className="p-2">
                 <li className="p-4 transition ease-in-out delay-300 hover:text-pink-two border-b border-pink-one"><a href=""></a>ABOUT</li>
