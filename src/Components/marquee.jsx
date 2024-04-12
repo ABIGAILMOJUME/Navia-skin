@@ -1,4 +1,4 @@
-import afrowoman from '../Images/afro woman.jpg'
+
 
 const Marquee = () => {
     return ( 
