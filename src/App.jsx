@@ -1,7 +1,8 @@
 import './App.css'
 import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
-import ServiceMenu from './Components/servicesmenu';
+import Marquee from './Components/marquee';
+
 
 
 const App = () => { 
@@ -9,7 +10,7 @@ const App = () => {
     <>
       <Navbar/>
       <Hero/>
-      <ServiceMenu/>
+      <Marquee/>
     </>
   ); 
 }
