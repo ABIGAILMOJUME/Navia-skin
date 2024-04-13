@@ -1,5 +1,5 @@
 import afrowoman from '../Images/afro woman.jpg'
-
+import { FaPlus } from "react-icons/fa6";
 import React from 'react'
 
 const Servicesmenu = () => {
@@ -11,6 +11,14 @@ const Servicesmenu = () => {
         <div>
             <img className='flex w-screen md:h-96 md:w-80 md:ml-32 lg:h-96 lg:w-96 lg:ml-40' src={afrowoman} alt="afro" />
         </div>
+        </div>
+
+        <div className='md:ml-44'>
+            <h4 className='text-one text-center border-b border-pink-one py-6'>LETS ENHANCE YOUR NATURAL BEAUTY </h4>
+            <h4 className='flex transition ease-in-out delay-500 font-urbanist text-center md:text-left text-4xl leading-5 md:leading-9 text-grey-two hover:text-pink-three py-10 border-b border-pink-one'>Facial Treatments <a href=""></a><FaPlus className='ml-14 pb-2'/></h4>
+            <h4 className='flex transition ease-in-out delay-500 font-urbanist text-center md:text-left text-4xl leading-5 md:leading-9 text-grey-two hover:text-pink-three py-10 border-b border-pink-one'>Chemical Peels <a href=""></a><FaPlus className='ml-24 pb-2' /></h4>
+            <h4 className='flex transition ease-in-out delay-500 font-urbanist text-center md:text-left text-4xl leading-5 md:leading-9 text-grey-two hover:text-pink-three py-10'>Body Treatments <a href=""></a><FaPlus className='ml-14 pb-2'/></h4>
+
         </div>
 </div>
 
