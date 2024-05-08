@@ -39,6 +39,9 @@ export default {
           '100%': { transform: 'translateX(-100%)' },
         },
       },
+      width:{
+        'review':'63%'
+      }
     },
   },
   plugins: [],

@@ -29,7 +29,8 @@ const Navbar = () => {
                 <li className="p-7 transition ease-in-out delay-150 hover:scale-x-110 hover:text-pink-two"><a href=""></a>CONTACT</li>
                 
                 </ul>  
-                <button className="btn-one hidden md:flex md:p-3 mr-3 h-10 w-32 text-xs">BOOK ONLINE </button>
+                <button className="btn-one hidden md:flex md:p-4 mr-3 h-12 w-36 text-sm 
+                ">BOOK ONLINE </button>
 
                     {/*menu for mobile */}
                 <div className="mr-3 block md:hidden" onClick={toggleMenu}>
