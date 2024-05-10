@@ -32,7 +32,7 @@ const Navbar = () => {
                 <button className="btn-one hidden md:flex md:p-4 mr-3 h-12 w-36 text-sm 
                 ">BOOK ONLINE </button>
 
-                    {/*menu for mobile */}
+                    {/*menu for mobile */} 
                 <div className="mr-3 block md:hidden" onClick={toggleMenu}>
                     {isMenuOPen ?<AiOutlineClose size={30}/>: <AiOutlineMenu size={30}/> }
                 </div>

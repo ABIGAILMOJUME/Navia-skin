@@ -13,13 +13,13 @@ const Servicesmenu = () => {
         </div>
         </div>
 
-        <div className='flex flex-col items-end md:ml-40 lg:ml-52 md:mt-5'>
+        <div className='flex flex-col items-end mx-auto'>
             <h4 className='text-one text-center border-b border-pink-one py-6'>LETS ENHANCE YOUR NATURAL BEAUTY </h4>
-            <h4 className='flex transition ease-in-out delay-500 font-urbanist text-center md:text-left text-4xl leading-5 md:leading-10 text-grey-two hover:text-pink-three py-10 border-b border-pink-one'>Facial Treatments <a href=""></a><FaPlus className='ml-14 pb-2  fill-pink-three'/></h4>
-            <h4 className='flex transition ease-in-out delay-500 font-urbanist text-center md:text-left text-4xl leading-5 md:leading-10 text-grey-two hover:text-pink-three py-10 border-b border-pink-one'>Chemical Peels <a href=""></a><FaPlus className='ml-24 pb-2  fill-pink-three' /></h4>
-            <h4 className='flex transition ease-in-out delay-500 font-urbanist text-center md:text-left text-4xl leading-5 md:leading-10 text-grey-two hover:text-pink-three py-10'>Body Treatments <a href=""></a><FaPlus className='ml-16 pb-2 fill-pink-three'/></h4>
+            <h4 className='flex transition ease-in-out delay-500 font-urbanist text-center md:text-left text-4xl leading-6 md:leading-10 text-grey-two hover:text-pink-three py-10 border-b border-pink-one'>Facial Treatments <a href=""></a><FaPlus className='ml-14 pb-2  fill-pink-three'/></h4>
+            <h4 className='flex transition ease-in-out delay-500 font-urbanist text-center md:text-left text-4xl leading-6 md:leading-10 text-grey-two hover:text-pink-three py-10 border-b border-pink-one'>Chemical Peels <a href=""></a><FaPlus className='ml-24 pb-2  fill-pink-three' /></h4>
+            <h4 className='flex transition ease-in-out delay-500 font-urbanist text-center md:text-left text-4xl leading-6 md:leading-10 text-grey-two hover:text-pink-three py-10'>Body Treatments <a href=""></a><FaPlus className='ml-16 pb-2 fill-pink-three'/></h4>
 
-        </div>
+        </div> 
 </div>
 
 
