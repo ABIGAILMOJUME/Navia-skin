@@ -22,11 +22,11 @@ const Navbar = () => {
         </div>
         <div className="h-20 bg-grey-one border-b border-pink-two flex justify-between items-center font-medium text-sm">
                 <a href=""><img src={logo} alt="" className=" w-56 pl-2 hover:shadow-sm"/></a>
-              <ul className=" text-grey-two font-syne hidden md:flex  ">
-                <li  className="p-7 transition ease-in-out delay-150 hover:scale-x-110 hover:text-pink-two "><a href=""></a>ABOUT</li>
-                <li className="p-7 transition ease-in-out delay-150 hover:scale-x-110 hover:text-pink-two"><a href=""></a>SERVICES</li>
-                <li className="p-7 transition ease-in-out delay-150 hover:scale-x-110 hover:text-pink-two"><a href=""></a>SHOP</li>
-                <li className="p-7 transition ease-in-out delay-150 hover:scale-x-110 hover:text-pink-two"><a href=""></a>CONTACT</li>
+              <ul className=" text-grey-two font-syne hidden md:flex">
+                <li  className="p-7 transition ease-in-out delay-150 hover:scale-x-110 hover:text-pink-two "><a href="">ABOUT</a></li>
+                <li className="p-7 transition ease-in-out delay-150 hover:scale-x-110 hover:text-pink-two"><a href="">SERVICES</a></li>
+                <li className="p-7 transition ease-in-out delay-150 hover:scale-x-110 hover:text-pink-two"><a href="">SHOP</a></li>
+                <li className="p-7 transition ease-in-out delay-150 hover:scale-x-110 hover:text-pink-two"><a href="">CONTACT</a></li>
                 
                 </ul>  
                 <button className="btn-one hidden md:flex md:p-4 mr-3 h-12 w-36 text-sm 
