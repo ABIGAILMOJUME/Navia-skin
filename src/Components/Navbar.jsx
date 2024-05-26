@@ -42,7 +42,7 @@ const Navbar = () => {
                 <li className="p-4 transition ease-in-out delay-300 hover:text-pink-two border-b border-pink-one"><a href="">ABOUT</a></li>
                 <li className="p-4 transition ease-in-out delay-300 hover:text-pink-two border-b border-pink-one"><a href="">SERVICES</a></li>
                 <li className="p-4 transition ease-in-out delay-300 hover:text-pink-two border-b border-pink-one"><a href="">SHOP</a></li>
-                <li className="p-4 transition ease-in-out delay-300 hover:text-pink-two"><a href=""></a>CONTACT</li>    
+                <li className="p-4 transition ease-in-out delay-300 hover:text-pink-two"><a href="">CONTACT</a></li>    
                     </ul>
                 </div>
         </div>
