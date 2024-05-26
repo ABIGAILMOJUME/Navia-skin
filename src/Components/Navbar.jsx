@@ -39,9 +39,9 @@ const Navbar = () => {
                 <div className={isMenuOPen ? "fixed left-0 top-0 w-[60%] h-full border-r border-pink-50 bg-grey-one ease-out duration-500" : "fixed left-[-100%] "}>
                 <a href=""><img src={logo} alt="" className=" w-56 pl-1 mt-2 hover:shadow-sm"/></a>
                     <ul className="p-2">
-                <li className="p-4 transition ease-in-out delay-300 hover:text-pink-two border-b border-pink-one"><a href=""></a>ABOUT</li>
-                <li className="p-4 transition ease-in-out delay-300 hover:text-pink-two border-b border-pink-one"><a href=""></a>SERVICES</li>
-                <li className="p-4 transition ease-in-out delay-300 hover:text-pink-two border-b border-pink-one"><a href=""></a>SHOP</li>
+                <li className="p-4 transition ease-in-out delay-300 hover:text-pink-two border-b border-pink-one"><a href="">ABOUT</a></li>
+                <li className="p-4 transition ease-in-out delay-300 hover:text-pink-two border-b border-pink-one"><a href="">SERVICES</a></li>
+                <li className="p-4 transition ease-in-out delay-300 hover:text-pink-two border-b border-pink-one"><a href="">SHOP</a></li>
                 <li className="p-4 transition ease-in-out delay-300 hover:text-pink-two"><a href=""></a>CONTACT</li>    
                     </ul>
                 </div>
