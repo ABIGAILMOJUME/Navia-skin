@@ -30,6 +30,10 @@ export default {
       lineHeight:{
         'small': '1.1'
       },
+      margin:{
+        'm28':'28rem',
+        'm32':'32rem'
+      },
       animation: {
         marquee: 'marquee 120s linear infinite',
       },
@@ -40,7 +44,8 @@ export default {
         },
       },
       width:{
-        'review':'63%'
+        'review':'63%',
+        'w28': '28rem'
       }
     },
   },

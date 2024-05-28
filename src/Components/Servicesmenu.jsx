@@ -6,8 +6,8 @@ const Servicesmenu = () => {
   return (
     <React.Fragment>
       <div className="flex flex-col md:flex-row ">
-        <div className="lg:w-1/2 flex-col hover:brightness-75 ">
-          <h4 className="inline-flex rounded-sm p-3 bg-pink-three text-grey-one md:-rotate-90 md:origin-top-left tracking-widest font-syne font-semibold text-sm justify-center items-center text-center absolute md:mt-96 md:w-96 md:ml-24 lg:mt-96  ">
+        <div className="lg:w-1/2 flex-col hover:brightness-25 ">
+          <h4 className="inline-flex rounded-sm p-3 bg-pink-three text-grey-one md:-rotate-90 md:origin-top-left tracking-widest font-syne font-semibold text-sm justify-center items-center text-center absolute md:mt-m28 md:w-w28 md:ml-16 lg:mt-m28 lg:ml-24">
             OUR SERVICES MENU
           </h4>
           <div>
