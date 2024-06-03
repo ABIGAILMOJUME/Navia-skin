@@ -19,7 +19,7 @@ const ServicesMenu = () => {
           </div>
         </div>
 
-        <div className="lg:w-1/2 flex flex-col mx-auto">
+        <div className="lg:w-1/2 flex flex-col sm:mx-24 mx-auto">
           <h4 className="text-one border-b border-pink-one py-6">
             LETS ENHANCE YOUR NATURAL BEAUTY
           </h4>
