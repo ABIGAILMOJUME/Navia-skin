@@ -2,6 +2,7 @@
 import { useState } from "react";
 import logo from '../Images/naviaskin.png'
 import {AiOutlineClose,AiOutlineMenu} from 'react-icons/ai'
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -29,8 +30,8 @@ const Navbar = () => {
                 <li className="p-7 transition ease-in-out delay-150 hover:scale-x-110 hover:text-pink-two"><a href="">CONTACT</a></li>
                 
                 </ul>  
-                <button className="btn-one hidden md:flex md:p-4 mr-3 h-12 w-36 text-sm 
-                ">BOOK ONLINE </button>
+                <button className="btn-one hidden md:flex md:p-3 mr-3 w-36 text-sm 
+                ">BOOK ONLINE<FaLongArrowAltRight className="size-3 my-auto ml-2 "/> </button>
 
                     {/*menu for mobile */} 
                 <div className="mr-3 block md:hidden" onClick={toggleMenu}>

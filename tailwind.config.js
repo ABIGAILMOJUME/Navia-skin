@@ -18,14 +18,14 @@ export default {
           urbanist :['"Urbanist", sans-serif;'],
           syne:['"Syne", sans-serif;'],
           assistant:['"Assistant", sans-serif;'],
-
+          playfair:['"Playfair Display", serif;']
          },
       height:{
         'hero':'28rem',
       },   
       fontSize:{
         'big':'4.375rem',
-        'marquee': '9.375rem'
+        'marquee': '10rem'
       },
       lineHeight:{
         'small': '1.1'
@@ -45,7 +45,8 @@ export default {
       },
       width:{
         'review':'63%',
-        'w28': '28rem'
+        'w28': '28rem',
+        'w90': '90%'
       }
     },
   },
